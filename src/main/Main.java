@@ -18,5 +18,19 @@ public class Main {
 	public void print(String print){
 		System.out.println(print);
 	}
+	
+	
+	public void dotype(String long_string,int catchtime){
+		for (int i = 0; i <= long_string.length();i++){
+			System.out.print(long_string.ChatAt(i));
+			try{
+				Thread.Sleep(catchtime);
+			}
+			catch(InterruptedException e){
+				e.printStackTrace();
+			}
+			
+		}
+	}
 
 }
