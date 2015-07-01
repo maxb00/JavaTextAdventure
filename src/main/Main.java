@@ -8,7 +8,9 @@ public class Main {
 		RoomHandler RH = new RoomHandler();
 		boolean gamerunning = true;
 		
-		dotype("You sit eating your eggs and toast, as the sun rises over the hill.",20")
+		dotype("You sit eating your eggs and toast, as the sun rises over the hill.",20)
+		Thead.Sleep(20)
+		dotype("",20)
 		
 		 
 		
