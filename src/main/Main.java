@@ -8,6 +8,10 @@ public class Main {
 		RoomHandler RH = new RoomHandler();
 		boolean gamerunning = true;
 		
+		dotype("You sit eating your eggs and toast, as the sun rises over the hill.",20")
+		
+		 
+		
 		while (gamerunning){
 		//	RH.room()
 			
